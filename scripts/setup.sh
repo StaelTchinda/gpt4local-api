@@ -34,11 +34,11 @@ download_model() {
 # Download the models
 MODELS_FOLDER_PATH="./models"
 MODEL_URLS=(
-    "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/blob/main/mistral-7b-instruct-v0.2.Q5_K_S.gguf"
+    "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/blob/main/mistral-7b-instruct-v0.2.Q4_K_M.gguf"
     "https://gpt4all.io/models/gguf/orca-mini-3b-gguf2-q4_0.gguf"
 )
 MODEL_NAMES=(
-    "mistral-7b-instruct-v0.2.Q5_K_S.gguf"
+    "mistral-7b-instruct-v0.2.Q4_K_M.gguf"
     "orca-mini-3b-gguf2-q4_0.gguf"
 )
 
